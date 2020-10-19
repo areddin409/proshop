@@ -26,7 +26,6 @@ const LoginScreen = ({location, history}) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log('Fired');
     dispatch(login(email, password));
   };
 
