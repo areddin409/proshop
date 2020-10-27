@@ -13,7 +13,6 @@ import {
   ORDER_PROFILE_REQUEST,
   ORDER_PROFILE_SUCCESS,
 } from '../constants/orderConstants';
-import { logout } from '../actions/userActions';
 
 export const createOrder = (order) => async (dispatch, getState) => {
   try {
